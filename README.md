@@ -27,7 +27,7 @@ npm install snipsnap
 ### Example Usage
 
 ```jsx
-import SnipSnap from "snipsnap";
+import { SnipSnap } from "snipsnap";
 ```
 
 ```jsx

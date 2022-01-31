@@ -1,3 +1,4 @@
+import React from "react";
 import styled from "styled-components";
 import PropTypes from "prop-types";
 
@@ -10,10 +11,6 @@ export const SnipSnap = ({ children, breakpoint, reverseOrder, id }) => {
       return true;
     }
   };
-
-  // reverseOrder true => isOdd(num) === true && 'row-reverse
-  // reverseOrder false => isOdd(num) === false &&& 'row-reverse
-  // id % 2 === 0 && 'row-reverse' isOdd(id) === true && "row-reverse"
 
   return (
     <Root
