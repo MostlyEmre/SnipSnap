@@ -2,11 +2,13 @@
 
 Object.defineProperty(exports, '__esModule', { value: true });
 
+var React = require('react');
 var styled = require('styled-components');
 var PropTypes = require('prop-types');
 
 function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
 
+var React__default = /*#__PURE__*/_interopDefaultLegacy(React);
 var styled__default = /*#__PURE__*/_interopDefaultLegacy(styled);
 var PropTypes__default = /*#__PURE__*/_interopDefaultLegacy(PropTypes);
 
@@ -23,12 +25,9 @@ const SnipSnap = ({
     } else if (num % 2 === 1) {
       return true;
     }
-  }; // reverseOrder true => isOdd(num) === true && 'row-reverse
-  // reverseOrder false => isOdd(num) === false &&& 'row-reverse
-  // id % 2 === 0 && 'row-reverse' isOdd(id) === true && "row-reverse"
+  };
 
-
-  return /*#__PURE__*/React.createElement(Root, {
+  return /*#__PURE__*/React__default["default"].createElement(Root, {
     breakpoint: breakpoint,
     reverseOrder: reverseOrder,
     layout: reverseOrder ? isOdd(id) === false && "row-reverse" : isOdd(id) === true && "row-reverse"
