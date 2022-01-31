@@ -34,7 +34,7 @@ const SnipSnap = ({
     layout: reverseOrder ? isOdd(id) === false && "row-reverse" : isOdd(id) === true && "row-reverse"
   }, children);
 };
-const Root = styled__default["default"].div`
+const Root = styled__default["default"].section`
   display: flex;
   align-items: center;
   flex-direction: ${({
@@ -45,7 +45,9 @@ const Root = styled__default["default"].div`
     flex: 1;
   }
 
-  @media (max-width: ${props => props.breakpoint}) {
+  @media (max-width: ${({
+  breakpoint
+}) => breakpoint}) {
     flex-direction: column;
   }
 `;

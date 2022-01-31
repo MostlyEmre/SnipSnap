@@ -1,8 +1,9 @@
 {
-  "name": "@mostlyemre/snipsnap",
+  "name": "snipsnap",
   "version": "1.0.0",
   "description": "A responsive react component that switches the positions of repeated divs with image&text content.",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
