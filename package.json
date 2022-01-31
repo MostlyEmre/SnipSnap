@@ -1,5 +1,5 @@
 {
-  "name": "snipsnap",
+  "name": "@mostlyemre/snipsnap",
   "version": "1.0.0",
   "description": "A responsive react component that switches the positions of repeated divs with image&text content.",
   "main": "index.js",
@@ -10,6 +10,9 @@
     "build-lib": "rollup -c"
   },
   "author": "Emre C. Aydin",
+  "repository": {
+    "url": "git://github.com/mostlyemre/snipsnap.git"
+  },
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.16.12",
