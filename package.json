@@ -1,6 +1,6 @@
 {
   "name": "snipsnap",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A responsive react component that switches the positions of repeated divs with image&text content.",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
