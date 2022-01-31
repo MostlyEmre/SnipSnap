@@ -1,6 +1,6 @@
 # SnipSnap
 
-![SnipSnap GIF](SnipSnap.gif)
+![SnipSnap GIF](https://media.giphy.com/media/uTH4VddMJPIiBeXrg7/giphy.gif)
 
 SnipSnap is a responsive React component that helps you create a zig-zag/switcharoo content layout without hassle. It uses `styled-components` for styling. (The only styling is flex related, there's no visual styling.) So you are required to install styled-components.
 
@@ -52,11 +52,11 @@ Keep in mind that colors are only there to show you how this works. SnipSnap onl
 
 #### Desktop
 
-![Desktop Screenshot for SnipSnap](SnipSnap-Desktop.png)
+![Desktop Screenshot for SnipSnap](https://i.imgur.com/55jTZis.png)
 
 #### Responsive (`breakpoint` prop is set `600px`)
 
-![](SnipSnap-Mobile.png)
+![Mobile Screenshot for SnipSnap](https://i.imgur.com/LPQ2pIM.png)
 
 ### Props
 
